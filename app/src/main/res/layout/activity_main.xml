@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B54B9EFA"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <TextView
+        android:id="@+id/txttiempo"
+        android:layout_width="316dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="244dp"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btniniciar"
+        android:layout_width="257dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif-monospace"
+        android:text="Iniciar"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttiempo" />
+
+    <Button
+        android:id="@+id/btnreiniciar"
+        android:layout_width="256dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif-monospace"
+        android:text="Reiniciar"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btniniciar" />
+
+    <Button
+        android:id="@+id/btndetener"
+        android:layout_width="261dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif-monospace"
+        android:text="Detener"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnreiniciar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
